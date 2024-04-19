@@ -1,0 +1,98 @@
+.container{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 3px;
+}
+
+#myTD{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Dbtn{
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 80px;
+}
+
+
+
+.report{
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.report{
+    gap: 15px;
+}
+
+.rBtn label{
+   transform: rotateZ(170deg);
+}
+
+#r4,#r1,#r2,#r3{
+    margin: 0px;
+    
+}
+
+.graph{
+    height: 250px;
+    width: 350px; 
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 10px;
+    margin-right: 10px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.progress{
+    display: block;
+    margin-left:5px;
+    height: 100px;
+    max-width: 10px;
+    background-color: hsl(30, 57%, 51%);
+}
+
+.dsbtn{
+    font-size: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#cdBtn{
+    margin-top: 2px;
+}
+
+#arrow{
+    font-size: small;
+    margin-top: 7px;
+}

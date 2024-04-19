@@ -1,0 +1,81 @@
+{
+    "delivery_centers": [
+      {
+        "id": 1,
+        "name": "Central Hub",
+        "location": {
+          "address": "123 Main St, New York City, NY, USA",
+          "capacity": 1000,
+          "types_of_shipments": ["express", "standard", "fragile"]
+        },
+        "staff": [
+          { "id": 10, "name": "John Doe", "role": "Driver" },
+          { "id": 11, "name": "Jane Smith", "role": "Sorter" }
+        ],
+        "vehicles": [
+          { "id": 20, "type": "Truck", "capacity": 50 },
+          { "id": 21, "type": "Van", "capacity": 20 }
+        ],
+        "shipments": [
+          {
+            "id": 123,
+            "origin_center": 1,
+            "destination_center": 2,
+            "sender": "Acme Corporation",
+            "recipient": "XYZ Inc.",
+            "type": "standard",
+            "weight": 30,
+            "dimensions": "10x15x20",
+            "value": 1000,
+            "status": "in_transit",
+            "route": {
+              "id": 456,
+              "origin": "New York City",
+              "destination": "Los Angeles",
+              "distance": 2400,
+              "vehicle": 20
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "West Coast Hub",
+        "location": {
+          "address": "456 West St, Los Angeles, CA, USA",
+          "capacity": 800,
+          "types_of_shipments": ["standard", "fragile"]
+        },
+        "staff": [
+          { "id": 12, "name": "Mike Johnson", "role": "Driver" },
+          { "id": 13, "name": "Emily Brown", "role": "Sorter" }
+        ],
+        "vehicles": [
+          { "id": 22, "type": "Truck", "capacity": 60 },
+          { "id": 23, "type": "Van", "capacity": 25 }
+        ],
+        "shipments": [
+          {
+            "id": 124,
+            "origin_center": 2,
+            "destination_center": 3,
+            "sender": "ABC Corp.",
+            "recipient": "PQR Ltd.",
+            "type": "fragile",
+            "weight": 20,
+            "dimensions": "8x10x15",
+            "value": 1500,
+            "status": "delivered",
+            "route": {
+              "id": 457,
+              "origin": "Los Angeles",
+              "destination": "San Francisco",
+              "distance": 380,
+              "vehicle": 22
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

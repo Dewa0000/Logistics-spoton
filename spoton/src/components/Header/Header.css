@@ -1,0 +1,91 @@
+/*div{
+   height: 80px;
+   display: flex;
+   font-family: sans-serif;
+   font-size: 1.5rem;
+   font-weight: 700;
+   background-color: hsla(125, 92%, 10%, 0.342);}*/
+
+#image{
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow: 7px 7px 2px;
+}
+
+#myH1{
+    display: flex;
+    
+    margin-right: 40px;
+    margin-left: 0px;
+    padding: 5px;
+
+}
+
+.input-type{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS',
+
+     'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(125, 92%, 10%, 0.342);
+}
+
+.material-symbols-outlined{
+    font-size: 2rem;
+    margin:0px 10px;
+    cursor:pointer;
+}
+
+#Cname{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#Ctype{
+    padding: 5px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#Stype{
+    margin-left: 30px;
+    padding: 5px 5px;
+}
+
+#SNo{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#myNN{
+    margin-left: 200px;
+    background-color: hsl(0, 20%, 70%);
+    border-radius: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 20px;
+    background-color: hsl(0, 40%, 89%);
+    padding: 10px;
+}
+
+.tab{
+    border: 5px hsl(0, 70%, 17%);
+    box-shadow: 3px 3px 5px hsl(0, 20%, 47%) ;  
+    padding: 5px;  
+    border-radius: 5px;
+}

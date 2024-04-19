@@ -1,0 +1,26 @@
+.card{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 0.7rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+.LM{
+    display: flex;
+    font-size: 0.7rem;
+    gap: 15px;
+}
+
+.FM{
+    display: flex;
+    font-size: 0.7rem;
+    gap: 15px;
+}
+
+.RT{
+    display: flex;
+    font-size: 0.7rem;
+    gap: 15px;
+}
